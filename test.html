@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html lang="pl"> 
+<title>Strona domowa Macibola</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+a {text-decoration: none;}
+a:hover {text-decoration: underline;
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="me_s.png" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>O MNIE</p>
+  </a>
+    <a href="#food" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-spoon w3-xxlarge"></i>
+    <p>JEDZENIE</p>
+  </a>
+  <a href="#important" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>WAŻNE INFORMACJE </p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>KONTAKT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">O MNIE</a>
+    <a href="#food" class="w3-bar-item w3-button" style="width:25% !important">JEDZENIE</a>
+    <a href="#important" class="w3-bar-item w3-button" style="width:25% !important">WAŻNE INFORMACJE</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">KONTAKT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo">Strona Testowa</h1>
+    <p>Student informatyki na Politechnice Śląskiej.</p>
+    <img src="me_l.png" alt="garfield" class="w3-image" width="200" height="300">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">O mnie</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Jestem studentem 2.&nbsp;roku Informatyki na&nbsp;wydziale <a href="https://www.polsl.pl/rau/" target=_blank>Automatyki, Elektroniki i&nbsp;Informatyki</a> <a href="https://www.polsl.pl/" target=_blank>Politechniki Śląskiej</a>. Zainteresowania&nbsp;/&nbsp;lubiane&nbsp;rzeczy:
+	<ul>
+	<li>Logika matematyczna,</li>
+	<li>Zakupy w dużych sklepach spożywczych (min. 2500 m<sup>2</sup>),</li>
+	<li>Jedzenie (patrz sekcja <a href="#food">jedzenie</a>),</li>
+	<li>Teksty / prezentacje pisane w LaTeX-u,</li>
+	<li>Gry komputerowe, w szczególności <a href="http://www.przygodyreksia.aidemmedia.pl/" target=_blank>Przygody Reksia</a>,</li>
+	<li>Otwarte oprogramowanie,</li>
+	<li>Promocje,</li>
+	<li>,</li>
+	<li>,</li>
+	<li>,</li>
+	</ul>
+	Nie lubiane / gardzone rzeczy:
+	<ul>
+	<li>Portale pseudospołecznościowe,</li>
+	<li>Pasek zadań Windowsa 11,</li>
+	<li>PiS,</li>
+	<li>Elektrotechnika,</li>
+	<li>Olej Palmowy,</li>
+	<li>Reklamy w Internecie,</li>
+	<li>Podwójna spacja,</li>
+	<li>Wszechobecna redundancja,</li>
+	<li>Bzdurne zakazy, nakazy i obostrzenia,</li>
+	<li>"Sklepy" z aplikacjami,</li>
+	<li>Usługi "premium", które niczym się nie różnią od wersji darmowych.</li>
+	<!--li>,</li-->
+	</ul>
+    </p>
+   
+  </div>
+  <div class="w3-padding-64 w3-content" id="food">
+    <h2 class="w3-text-light-grey">Jedzenie</h2>
+    <hr style="width:200px" class="w3-opacity">
+  
+  
+    </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="important">
+    <h2 class="w3-text-light-grey">Ważne informacje</h2>
+    <hr style="width:200px" class="w3-opacity">
+	<ol>
+		<li>Wszelkie umówienia się przed godziną 8:00 oraz po 21:00 czasu polskiego są ignorowane.</li>
+		<li>Kontakty w&nbsp;celach biznesowych dozwolone jedynie przez: rozmowę telefoniczną, SMS, MMS, wiadomość WhatsApp, e-mail. Wszelkie inne formy kontaktu biznesowego muszą być uzgodnione wcześniej.</li>
+		<li>Jeśli jesteś:
+		<ul>
+		<li>telemarketerem</li>
+		<li>robotem / osobą pseudożywą</li>
+		<li>naganiaczem na bzdurne szczepienia</li>
+		<li>ankieterem</li>
+		<li>nazistą, seksistą, homofobem, rasistą lub nacjonalistą</li>
+		</ul>
+		prawdopodobnie zostaniesz ręcznie potraktowany(-a) jako spam.</li>
+		<li>Zabronione jest przesyłanie zdjęć i filmów przez idiotycznie działające portale społecznościowe, takie jak Instagram / Snapchat.</li>
+		<li>Nie "dodaję do znajomych" osób, których nie znam osobiście.</li>
+	</ol>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content" id="contact">
+    <h2 class="w3-text-light-grey">Kontakt</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Orzegów, Ruda Śląska, Polska</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Tel: +48 *** *** ***</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: różny, w zależności od okoliczności</p>
+    </div><br>
+    
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a href="https://www.facebook.com/bolescik1/" target=_blank><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/bolescik1/" target=_blank><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/bolescik1" target=_blank><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <!--a href="" target=_blank><i class="fa fa-youtube w3-hover-opacity"></i></a-->
+    <a href="https://github.com/macibol775" target=_blank><i class="fa fa-github w3-hover-opacity"></i></a>
+    <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
