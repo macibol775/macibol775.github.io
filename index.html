@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pl"> 
+<title>Strona domowa Macibola</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 100px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (100px) */
+#main {margin-left: 100px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+a {text-decoration: none;}
+a:hover {text-decoration: underline;
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="me_s.png" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-hover-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>O MNIE</p>
+  </a>
+    <a href="#food" class="w3-bar-item w3-button w3-hover-black">
+    <i class="fa fa-cutlery w3-xxlarge"></i>
+    <p>JEDZENIE</p>
+  </a>
+  <a href="#sport" class="w3-bar-item w3-button  w3-hover-black">
+    <i class="fa fa-wheelchair-alt w3-xxlarge"></i>
+    <p>PLAN TRENINGÓW</p>
+  </a>
+  <a href="#important" class="w3-bar-item w3-button w3-hover-black">
+    <i class="fa fa-commenting w3-xxlarge"></i>
+    <p>WAŻNE INFORMACJE </p>
+  </a>
+    <a href="#faq" class="w3-bar-item w3-button w3-hover-black">
+    <i class="fa fa-question-circle w3-xxlarge"></i>
+    <p>CZĘSTE PYTANIA</p>
+  </a>
+    <a href="#forehead" class="w3-bar-item w3-button w3-hover-black">
+    <i class="w3-xxlarge">JK</i>
+    <p>WIELKIE CZOŁO</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>KONTAKT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">O MNIE</a>
+    <a href="#food" class="w3-bar-item w3-button" style="width:25% !important">JEDZENIE</a>
+    <a href="#sport" class="w3-bar-item w3-button" style="width:25% !important">PLAN TRENINGÓW</a>
+    <a href="#important" class="w3-bar-item w3-button" style="width:25% !important">WAŻNE INFORMACJE</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">KONTAKT</a>
+	<a href="#forehead" class="w3-bar-item w3-button" style="width:25% !important">WIELKIE CZOŁO</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Jestem</span> Macibol.</h1>
+    <p>Student informatyki na Politechnice Śląskiej.</p>
+    <img src="me_l.png" alt="garfield" class="w3-image" width="200" height="300">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">O mnie</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Jestem studentem 2.&nbsp;roku Informatyki na&nbsp;wydziale <a href="https://www.polsl.pl/rau/" target=_blank>Automatyki, Elektroniki i&nbsp;Informatyki</a> <a href="https://www.polsl.pl/" target=_blank>Politechniki Śląskiej</a>. Oprócz studiowania, zajmuję się udzielaniem korepetycji z matematyki i fizyki, jedzeniem, zrzędzeniem oraz robieniem zakupów. Zainteresowania&nbsp;/&nbsp;lubiane&nbsp;rzeczy:</p>
+	<ul>
+	<li>Logika matematyczna,</li>
+	<li>Zakupy w dużych sklepach spożywczych (min. 2500 m<sup>2</sup>),</li>
+	<li>Jedzenie (patrz sekcja <a href="#food">jedzenie</a>),</li>
+	<li>Teksty / prezentacje pisane w LaTeX-u,</li>
+	<li>Gry komputerowe, w szczególności <a href="http://www.przygodyreksia.aidemmedia.pl/" target=_blank>Przygody Reksia</a>,</li>
+	<li>Otwarte oprogramowanie,</li>
+	<li>Promocje,</li>
+	<li>Robert Makłowicz.</li>
+	<!--li>,</li>
+	<li>,</li>
+	<li>,</li-->
+	</ul>
+	Nie lubiane / gardzone rzeczy:
+	<ul>
+	<li>Portale pseudospołecznościowe - bardzo toporne i nieintuicyjne, zaprzeczają idei redukcji śledzenia w Internecie,</li>
+	<li>Pasek zadań Windowsa 11 - po prostu nie działa, funkcjonalność na poziomie Windows 95,</li>
+	<li>PiS - rozwala kraj,</li>
+	<li>Elektrotechnika - sposób na brutalne męczenie poprzez zanudzenie na śmierć studentów infrormatyki,</li>
+	<li>Olej palmowy, glutaminian monosodowy - przyczyniają się do dużej liczby chorób i zgonów,</li>
+	<li>Reklamy w Internecie - nie chodzi o samą obecność, a o upierdliwość i przetwarzanie danych,</li>
+	<li>Podwójna spacja - irytuje,</li>
+	<li>Wszechobecna redundancja - irytuje, marnuje cenny czas i nerwy, domena humanistów,</li>
+	<li>Bzdurne zakazy, nakazy i obostrzenia - są bez sensu i uprzykrzają życie normalnym ludziom,</li>
+	<li>"Sklepy" z aplikacjami - od tego jest .exe/.msi lub apt/snap,</li>
+	<li>Usługi "premium", które niczym się nie różnią od wersji darmowych,</li>
+	<li>Mówienie "pamięć" na dysk - jest to wprawdzie rodzaj pamięci, ale domyślnie słowo "pamięć" odnosi się do RAM-u.</li>
+  <!-- <li>,</li> -->
+  <!-- <li>,</li> -->
+  <!-- <li>,</li> -->
+	</ul>
+  
+   
+  </div>
+  <div class="w3-padding-64 w3-content" id="food">
+    <h2 class="w3-text-light-grey">Jedzenie</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+  <ol>
+  <li>Dania / produkty, które najbardziej lubię jeść:
+  <ul> 
+  <li>Kluski śląskie (jasne, ciemne i z farszem),</li>
+  <li>Rolada wołowa,</li>
+  <li>Bułka z pasztetem,</li>
+  <li>Produkty z wieprzowiny rasy puławskiej,</li>
+  <li>Pizza (im bardziej klasyczna, tym lepsza),</li>
+  <li>Sernik wiedeński (konieczne z rodzynkami),</li>
+  <li>Kurczak panierowany smażony,</li>
+  <li>Actimel,</li>
+  <li>Hamburger wysokiej jakości,</li>
+  <li>Granulat dla Maciboli.</li>
+  <!-- <li>,</li> -->
+  <!-- <li>,</li> -->
+  <!-- <li>,</li> -->
+  </ul></li>
+  <li>Produkty, których nie lubię jeść (i prawdopodobnie nie zjem):
+  <ul> 
+  <li>Grzyby (poza truflami),</li>
+  <li>Kapusta inna niż niebieska lub pekińska,</li>
+  <li>Rośliny strączkowe,</li>
+  <li>Ananas (w szczególności umieszczony z niewiadomego powodu na pizzy),</li>
+  <li>Avocado,</li>
+  <li>Chipsy,</li>
+  <li>Kalafiory i brokuły,</li>
+  <li>Niechrupiące pieczywo.</li>
+  <li>Cokolwiek, co było przetwarzane w mikrofali.</li>
+  </ul></li>
+  <li>Informacje na temat zdrowego odżywiania:
+  <ul> 
+  <li>Otyłość nie jest powodowana (w większości przypadków) przez tłuszcz, a przez węglowodany,</li>
+  <li>Bardzo ważne jest dostarczanie wielu miklroelementów, w przypadku witamin nie powinniśmy się zbytnio ograniczać,</li>
+  <li>Witaminy, w normalnych warunkach, bardzo ciężko przedawkować (trzeba spożyć przynajmniej 10 000 % zalecanej dawki),</li>
+  <li>Nie przejmujmy się tabelkami na produktach żywieniowych. Duża ilość węglowodanów nie świadczy o "niedietetyczności",</li>
+  <li>Zawsze sprawdzajmy skład produktów, w przypadku stoisk z produktami luzem / na wagę, sprzedawca ma obowiązek podać skład i alergeny</li>
+  <li>Jeśli nie ma w sklepie produktu z odpowiadającym nam składem, można udać się do innego sklepu, kupić od lokalnego rzemieślnika, poszykać online lub zrobić samemu</li>
+  <li>Mała przetwórnia nie gwarantuje wysokiej jakości produktu z dobrym składem.</li>
+  <!-- <li>,</li> -->
+  <!-- <li>,</li> -->
+  <!-- <li>,</li> -->
+  </ul></li>
+  <li>Opis wybranych elementów spotykanych w składach produktów:
+  <ul> 
+  <li><i>do uzupełnienia...</i></li>
+  </ul></li>
+  </ol>
+
+    </div>
+    <div class="w3-padding-64 w3-content" id="sport">
+    <h2 class="w3-text-light-grey">Plan treningów</h2>
+    <hr style="width:200px" class="w3-opacity">
+  <p>
+  <iframe width="1000" height="600" src="https://www.youtube.com/embed/MPd3_nUnKK8" title="Bier ta myszka." frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </p>
+    </div>
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="important">
+    <h2 class="w3-text-light-grey">Ważne informacje</h2>
+    <hr style="width:200px" class="w3-opacity">
+	<ol>
+		<li id="patrzuwaga-1">Wszelkie umówienia się na działania z domu przed godziną 8:00 oraz po 21:00 czasu polskiego są ignorowane (nawet, jeśli na nie się zgodzę).</li>
+		<li id="patrzuwaga-2">Kontakty w&nbsp;celach biznesowych dozwolone jedynie przez: rozmowę telefoniczną, SMS, MMS, wiadomość WhatsApp, e-mail. Wszelkie inne formy kontaktu biznesowego muszą być uzgodnione wcześniej.</li>
+		<li id="patrzuwaga-3">Jeśli jesteś:
+		<ul>
+		<li>telemarketerem</li>
+		<li>robotem / osobą pseudożywą</li>
+		<li>naganiaczem na bzdurne szczepienia</li>
+		<li>(tele)ankieterem</li>
+		<li>nazistą, seksistą, homofobem, rasistą lub nacjonalistą</li>
+		</ul>
+		możesz bez ostrzeżenia zostać potraktowany(-a) jako spam.</li>
+		<li id="patrzuwaga-4">Zabronione jest przesyłanie zdjęć, filmów i postów przez idiotycznie działające portale społecznościowe, takie jak Instagram / Snapchat.</li>
+		<li id="patrzuwaga-5">Nie "dodaję do znajomych" osób, których nie znam osobiście.</li>
+		<li id="patrzuwaga-6">Uprasza się o pisanie w zrozumiałym języku (najlepiej polskim lub angielskim).</li>
+		<li id="patrzuwaga-7">Zabrania się latania dronem lub innym urządzeniem wydającym zbliżony dźwięk w promiemiu 250m pod groźbą zestrzelenia.</li>
+		<li id="patrzuwaga-8">Zabrania się pisana dowolnej wersji "xd" w wiadomościach kierowanych (pośrednio lub bezpośrednio) do mnie.</li>
+		<li id="patrzuwaga-9">Jeśli mnie fizycznie nie ma w domu, do prawdopodbnie nie będę łączył się z czatem głosowym.</li>
+		<li id="patrzuwaga-10">Po godzinie 21:00 moje urządzenia wyciszają się automatyczne, w związku z czym prawdopodobnie nie odbiorę telefonu / nie odpiszę na wiadomość.</li>
+		</ol>
+  </div>
+
+  <div class="w3-padding-64 w3-content" id="faq">
+   <h2 class="w3-text-light-grey">Często zadawane pytania:</h2>
+    <hr style="width:200px" class="w3-opacity">
+	<ol> 
+	<!-- <li></li> -->
+	<!-- <li></li> -->
+	<!-- <li></li> -->
+	<!-- <li></li> -->
+	<!-- <li></li> -->
+	<!-- <li></li> -->
+	<!-- <li></li> -->
+	<!-- <li></li> -->
+	<!-- <li></li> -->
+  </ol>
+  <i>do uzupełnienia...</i>
+	</div>
+
+  <div class="w3-padding-64 w3-content " id="forehead">
+   <h2 class="w3-text-light-grey">Czoło osoby, która nie przeszła gry Reksio i Ufo w 2021 roku:</h2>
+    <hr style="width:200px" class="w3-opacity">
+	<!-- Tu odkomentować czoło Janka 1 stycznia -->
+	<img align =center src="jk.png" alt="wielkie czoło"  width=1000px />
+	<!--br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /--></div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content" id="contact">
+    <h2 class="w3-text-light-grey">Kontakt</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Orzegów, Ruda Śląska, Polska</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Tel: +48 *** *** *** (jeśli będzie potrzebny, to podam)</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: bardzo różny, w zależności od okoliczności</p>
+    </div><br />
+    
+  <!-- End Contact Section -->
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a href="https://www.facebook.com/bolescik1/" target=_blank><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/bolescik1/" target=_blank><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/bolescik1" target=_blank><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <!--a href="" target=_blank><i class="fa fa-youtube w3-hover-opacity"></i></a-->
+    <a href="https://github.com/macibol775" target=_blank><i class="fa fa-github w3-hover-opacity"></i></a>
+    <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
+
